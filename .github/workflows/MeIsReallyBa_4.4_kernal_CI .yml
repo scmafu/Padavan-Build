@@ -34,6 +34,8 @@ jobs:
             targets: "MI-R3G"
           - build_variant: "mt7621"
             targets: "MI-4" 
+          - build_variant: "mt7621"
+            targets: "JCG-Q20" 
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@v2
